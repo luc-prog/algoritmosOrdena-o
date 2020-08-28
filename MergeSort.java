@@ -4,7 +4,7 @@ public class MergeSort {
 
 	public static void main(String[] args) {
 		
-		int[] vetor = new int[] {9, 10, -1, 3, 6, 2, -3, 1, 0, -2, 15, 8, -7, 0};
+		int[] vetor = new int[] {9,10,-1,3,6,2,1,-3,1,0,-2,15,8,-7,0};
 		printVetor(vetor);
 		mergeSort(vetor, 0, vetor.length-1);
 		printVetor(vetor);
