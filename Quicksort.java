@@ -25,7 +25,7 @@ public class Quicksort {
 		int i = p - 1;
 		for(int j = p; j < r; j++) {
 			if(vetor[j] <= x) {
-				i = i+1;
+				i++;
 				trocar(vetor, i, j);
 			}
 		}
